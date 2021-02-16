@@ -1,7 +1,7 @@
 package Mojolicious::Plugin::Mobi;
 use Mojo::Base 'Mojolicious::Plugin';
 
-our $VERSION = '0.07';
+our $VERSION = '0.7';
 
 my $pattern =
 qr/android.+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i;
